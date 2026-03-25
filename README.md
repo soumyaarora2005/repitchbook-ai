@@ -1,4 +1,4 @@
-💡RepitchBook
+# 💡RepitchBook
 
 AI-Powered Real Estate Deal Intelligence Engine, to refine, structure, and repitch ideas effectively
 
@@ -7,12 +7,12 @@ Transform raw property data into institutional-grade investment memos in seconds
 <img width="1911" height="1002" alt="image" src="https://github.com/user-attachments/assets/6dd8832a-37a0-4452-a606-4f1bbc09f64c" />
 
 
-📌 Abstract
+# 📌 Abstract
 
 REPitchBook AI is a full-stack AI-powered real estate investment analysis platform. It takes property details such as purchase price, expected rent, annual costs, and location to instantly generate a structured and professional-grade investment memo completed with ROI, rental yield, cash flow analysis, market context and a final recommendation.
 Built for real estate investors, analysts and fund managers who need fast and reliable deal screening without manual number-crunching or generic chatbot responses.
 
-✨ Features
+# ✨ Features
 
 - AI Memo Generation — Generates institutional-quality investment memos using Groq's LLaMA 3.3 70B model
 - Automated Financial Metrics — Calculates ROI, rental yield, annual cash flow, and investment score automatically
@@ -24,7 +24,7 @@ Built for real estate investors, analysts and fund managers who need fast and re
 - Responsive Frontend — React + Vite frontend with Tailwind CSS, works on all devices
 
 
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 - Backend
     Technology:                                             Purpose:
     - Python 3.14                                           Core language
@@ -51,7 +51,7 @@ Built for real estate investors, analysts and fund managers who need fast and re
     - Groq Cloud                                            AI model hosting
 
 
-📸 Screenshots
+# 📸 Screenshots
 
 Dashboard / Home
 
@@ -69,7 +69,7 @@ Generated Investment Memo and Reports
 <img width="1919" height="1008" alt="image" src="https://github.com/user-attachments/assets/e746db46-8937-477f-950c-793c6c31a8a1" />
 
 
-⚙️ Installation & Local Setup
+# ⚙️ Installation & Local Setup
 Prerequisites-
 
 Make sure you have these installed:
@@ -86,7 +86,7 @@ Make sure you have these installed:
         git clone https://github.com/soumyaarora2005/repitchbook-ai.git
         cd repitchbook-ai</pre>
 
-4. Backend Setup:
+2. Backend Setup:
    
     <pre>bash
         #Install Python dependencies
@@ -139,9 +139,9 @@ Open two terminals and run simultaneously:
 | Terminal 2  | (Frontend) cd frontend && npm run dev         | http://localhost:8080   |
 
 
-🚀 Deployment
+# 🚀 Deployment
 
-Backend → Render
+- Backend → Render
 
 Push your code to GitHub
 Go to render.com → New Web Service
@@ -161,7 +161,7 @@ GROQ_API_KEY =your_groq_api
 Click Create Web Service
 
 
-Frontend → Vercel
+- Frontend → Vercel
 
 Go to vercel.com → Add New Project
 Import your GitHub repo
@@ -183,12 +183,12 @@ Click Deploy
 
 
 
-📄 Live Demo 
+# 📄 Live Demo 
 https://repitchbook-ai-a3s1.vercel.app
 
 
 
-👥 Contributors
+# 👥 Contributors
 
 | Soumya Arora | [@soumyaarora2005](https://github.com/soumyaarora2005) |
 
@@ -197,7 +197,7 @@ https://repitchbook-ai-a3s1.vercel.app
 
 
 
-👤 Author
+# 👤 Author
 Soumya Arora
 
 
