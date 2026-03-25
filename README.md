@@ -197,10 +197,14 @@ Click Deploy
 https://repitchbook-ai-a3s1.vercel.app
 
 
+
 👥 Contributors
+
 | Soumya Arora | [@soumyaarora2005](https://github.com/soumyaarora2005) |
 
 | Siddharth Doda | [@Siddharth-Doda](https://github.com/Siddharth-Doda) |
+
+
 
 
 👤 Author
