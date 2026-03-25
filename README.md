@@ -81,7 +81,7 @@ Make sure you have these installed:
 
 
 1. Clone the Repository:
-2. 
+ 
     bash
    
     git clone https://github.com/soumyaarora2005/repitchbook-ai.git
@@ -92,7 +92,7 @@ Make sure you have these installed:
    
     bash
    
-    # Install Python dependencies
+    #Install Python dependencies
    
     pip install -r requirements.txt
    
@@ -106,11 +106,11 @@ Make sure you have these installed:
     - Start the backend server:
        bash
       
-       # Windows
+       #Windows
       
        python -m uvicorn app.main:app --reload
 
-       # Mac/Linux
+       #Mac/Linux
       
        uvicorn app.main:app --reload
       
@@ -124,7 +124,7 @@ API Docs at → http://localhost:8000/docs
    
     cd frontend
 
-   # Install dependencies
+   #Install dependencies
    
    npm install
    
