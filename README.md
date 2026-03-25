@@ -82,7 +82,7 @@ Make sure you have these installed:
 
 1. Clone the Repository:
  
-    bash
+    '''bash
    
     git clone https://github.com/soumyaarora2005/repitchbook-ai.git
    
