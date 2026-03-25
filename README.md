@@ -192,19 +192,23 @@ VITE_API_BASE_URL = https://repitchbook-ai.onrender.com
 Click Deploy
 
 
+
 📄 Live Demo 
 https://repitchbook-ai-a3s1.vercel.app
 
 
 👥 Contributors
 | Soumya Arora | [@soumyaarora2005](https://github.com/soumyaarora2005) |
+
 | Siddharth Doda | [@Siddharth-Doda](https://github.com/Siddharth-Doda) |
 
 
 👤 Author
 Soumya Arora
 
+
 GitHub: soumyaarora2005
+
 LinkedIn: https://www.linkedin.com/in/soumya-arora-62t007770n
 
 
