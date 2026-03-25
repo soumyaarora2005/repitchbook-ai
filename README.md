@@ -6,6 +6,7 @@ Transform raw property data into institutional-grade investment memos in seconds
 
 <img width="1911" height="1002" alt="image" src="https://github.com/user-attachments/assets/6dd8832a-37a0-4452-a606-4f1bbc09f64c" />
 
+
 📌 Abstract
 
 REPitchBook AI is a full-stack AI-powered real estate investment analysis platform. It takes property details such as purchase price, expected rent, annual costs, and location to instantly generate a structured and professional-grade investment memo completed with ROI, rental yield, cash flow analysis, market context and a final recommendation.
@@ -21,6 +22,7 @@ Built for real estate investors, analysts and fund managers who need fast and re
 - Secure API Handling — Environment-based key management, no keys exposed to client
 - REST API — Clean FastAPI backend with full Swagger documentation at /docs
 - Responsive Frontend — React + Vite frontend with Tailwind CSS, works on all devices
+
 
 🛠️ Tech Stack
 - Backend
@@ -48,6 +50,7 @@ Built for real estate investors, analysts and fund managers who need fast and re
     - GitHub                                                Version control
     - Groq Cloud                                            AI model hosting
 
+
 📸 Screenshots
 
 Dashboard / Home
@@ -62,10 +65,13 @@ Generated Investment Memo and Reports
 
 <img width="1919" height="991" alt="image" src="https://github.com/user-attachments/assets/77bbf362-ccd8-4215-a539-6547f792c949" />
 
+
 <img width="1919" height="1008" alt="image" src="https://github.com/user-attachments/assets/e746db46-8937-477f-950c-793c6c31a8a1" />
+
 
 ⚙️ Installation & Local Setup
 Prerequisites-
+
 Make sure you have these installed:
 
 - Python 3.10+
@@ -75,48 +81,75 @@ Make sure you have these installed:
 
 
 1. Clone the Repository:
+2. 
     bash
+   
     git clone https://github.com/soumyaarora2005/repitchbook-ai.git
+   
     cd repitchbook-ai
 
-2. Backend Setup:
+4. Backend Setup:
+   
     bash
+   
     # Install Python dependencies
+   
     pip install -r requirements.txt
+   
 
     - Create a .env file in the root directory:
+      
        env
+      
        GROQ_API_KEY=your_groq_api
+      
     - Start the backend server:
        bash
+      
        # Windows
+      
        python -m uvicorn app.main:app --reload
 
        # Mac/Linux
+      
        uvicorn app.main:app --reload
       
 Backend runs at → http://localhost:8000
+
 API Docs at → http://localhost:8000/docs
 
 3. Frontend Setup:
+   
     bash
+   
     cd frontend
 
    # Install dependencies
+   
    npm install
+   
    - Create a .env file inside the frontend folder:
+     
       env
+     
       VITE_API_BASE_URL=http://localhost:8000
+     
    - Start the frontend:
+     
       bash
+     
       npm run dev
      
 Frontend runs at → http://localhost:8080
 
 4. Running Both Servers:
+   
 Open two terminals and run simultaneously:
+
 Terminal                Command                                                              URL
+
 Terminal 1              (Backend)python -m uvicorn app.main:app --reload                     http://localhost:8000
+
 Terminal 2              (Frontend)cd frontend && npm run dev                                 http://localhost:8080
 
 
