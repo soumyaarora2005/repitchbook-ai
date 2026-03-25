@@ -82,11 +82,11 @@ Make sure you have these installed:
 
 1. Clone the Repository:
  
-    '''bash
+    <pre>'''bash
    
     git clone https://github.com/soumyaarora2005/repitchbook-ai.git
    
-    cd repitchbook-ai
+    cd repitchbook-ai'''</pre>
 
 4. Backend Setup:
    
