@@ -1,10 +1,13 @@
 💡RepitchBook
+
 AI-Powered Real Estate Deal Intelligence Engine, to refine, structure, and repitch ideas effectively
 
 Transform raw property data into institutional-grade investment memos in seconds — powered by Groq's ultra-fast LLaMA 3.3 70B model.
+
 <img width="1911" height="1002" alt="image" src="https://github.com/user-attachments/assets/6dd8832a-37a0-4452-a606-4f1bbc09f64c" />
 
 📌 Abstract
+
 REPitchBook AI is a full-stack AI-powered real estate investment analysis platform. It takes property details such as purchase price, expected rent, annual costs, and location to instantly generate a structured and professional-grade investment memo completed with ROI, rental yield, cash flow analysis, market context and a final recommendation.
 Built for real estate investors, analysts and fund managers who need fast and reliable deal screening without manual number-crunching or generic chatbot responses.
 
@@ -29,6 +32,7 @@ Built for real estate investors, analysts and fund managers who need fast and re
     - Pydantic                                              Data validation and modeling
     - python-dotenv                                         Environment variable management
     - httpx                                                 Async HTTP client
+      
 - Frontend
   Technology:                                               Purpose:
     - React                                                 UI framework
@@ -36,6 +40,7 @@ Built for real estate investors, analysts and fund managers who need fast and re
     - TypeScript                                            Type-safe JavaScript
     - Tailwind CSS                                          Utility-first styling
     - Node.js                                               Runtime environment
+      
 - Infrastructure
    Service:                                                 Purpose:
     - Render                                                Backend deployment
@@ -44,14 +49,19 @@ Built for real estate investors, analysts and fund managers who need fast and re
     - Groq Cloud                                            AI model hosting
 
 📸 Screenshots
+
 Dashboard / Home
+
 <img width="1919" height="996" alt="image" src="https://github.com/user-attachments/assets/2914fbf9-7226-4cf1-8682-e95f7ae9d887" />
 
 Deal Analysis Form
+
 <img width="1919" height="999" alt="image" src="https://github.com/user-attachments/assets/6964e213-2da9-41c5-abe0-668083afa40d" />
 
 Generated Investment Memo and Reports
+
 <img width="1919" height="991" alt="image" src="https://github.com/user-attachments/assets/77bbf362-ccd8-4215-a539-6547f792c949" />
+
 <img width="1919" height="1008" alt="image" src="https://github.com/user-attachments/assets/e746db46-8937-477f-950c-793c6c31a8a1" />
 
 ⚙️ Installation & Local Setup
