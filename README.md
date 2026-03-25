@@ -82,37 +82,29 @@ Make sure you have these installed:
 
 1. Clone the Repository:
  
-    <pre>'''bash
-   
-    git clone https://github.com/soumyaarora2005/repitchbook-ai.git
-   
-    cd repitchbook-ai'''</pre>
+    <pre>bash
+        git clone https://github.com/soumyaarora2005/repitchbook-ai.git
+        cd repitchbook-ai</pre>
 
 4. Backend Setup:
    
-    bash
-   
-    #Install Python dependencies
-   
-    pip install -r requirements.txt
+    <pre>bash
+        #Install Python dependencies
+        pip install -r requirements.txt</pre>
    
 
     - Create a .env file in the root directory:
       
-       env
-      
-       GROQ_API_KEY=your_groq_api
+       <pre>env
+           GROQ_API_KEY=your_groq_api</pre>
       
     - Start the backend server:
-       bash
-      
-       #Windows
-      
-       python -m uvicorn app.main:app --reload
-
-       #Mac/Linux
-      
-       uvicorn app.main:app --reload
+       <pre>bash
+           #Windows
+           python -m uvicorn app.main:app --reload
+           
+           #Mac/Linux
+           uvicorn app.main:app --reload</pre>
       
 Backend runs at → http://localhost:8000
 
@@ -120,25 +112,20 @@ API Docs at → http://localhost:8000/docs
 
 3. Frontend Setup:
    
-    bash
-   
-    cd frontend
-
-   #Install dependencies
-   
-   npm install
+    <pre>bash
+        cd frontend
+        #Install dependencies
+        npm install</pre>
    
    - Create a .env file inside the frontend folder:
      
-      env
-     
-      VITE_API_BASE_URL=http://localhost:8000
+      <pre>env
+          VITE_API_BASE_URL=http://localhost:8000</pre>
      
    - Start the frontend:
      
-      bash
-     
-      npm run dev
+      <pre>bash
+          npm run dev</pre>
      
 Frontend runs at → http://localhost:8080
 
@@ -146,11 +133,10 @@ Frontend runs at → http://localhost:8080
    
 Open two terminals and run simultaneously:
 
-Terminal                Command                                                              URL
-
-Terminal 1              (Backend)python -m uvicorn app.main:app --reload                     http://localhost:8000
-
-Terminal 2              (Frontend)cd frontend && npm run dev                                 http://localhost:8080
+| Terminal    | Command                                      | URL                      |
+|-------------|----------------------------------------------|--------------------------|
+| Terminal 1  | (Backend) python -m uvicorn app.main:app --reload | http://localhost:8000 |
+| Terminal 2  | (Frontend) cd frontend && npm run dev         | http://localhost:8080   |
 
 
 🚀 Deployment
@@ -161,11 +147,12 @@ Go to render.com → New Web Service
 Connect your GitHub repo
 Use these settings:
 
-Field                    Value                     
-Root Directory           (leave empty)
-Runtime                  Python 3
-Build Command            pip install -r requirements.txt
-Start Command            uvicorn app.main:app --host 0.0.0.0 --port 8000
+| Field           | Value                                      |
+|-----------------|--------------------------------------------|
+| Root Directory  | (leave empty)                              |
+| Runtime         | Python 3                                   |
+| Build Command   | pip install -r requirements.txt            |
+| Start Command   | uvicorn app.main:app --host 0.0.0.0 --port 8000 |
 
 Add environment variable:
 
@@ -179,11 +166,13 @@ Go to vercel.com → Add New Project
 Import your GitHub repo
 Use these settings:
 
-Field                   Value
-Root Directory          frontend
-Framework Preset        Vite
-Build Command           npm run build
-Output Directory        dist
+| Field            | Value         |
+|------------------|--------------|
+| Root Directory   | frontend     |
+| Framework Preset | Vite         |
+| Build Command    | npm run build |
+| Output Directory | dist         |
+
 
 Add environment variable:
 
