@@ -1,4 +1,4 @@
-# 💡RepitchBook
+# RepitchBook
 
 AI-Powered Real Estate Deal Intelligence Engine, to refine, structure, and repitch ideas effectively
 
@@ -12,7 +12,7 @@ Transform raw property data into institutional-grade investment memos in seconds
 REPitchBook AI is a full-stack AI-powered real estate investment analysis platform. It takes property details such as purchase price, expected rent, annual costs, and location to instantly generate a structured and professional-grade investment memo completed with ROI, rental yield, cash flow analysis, market context and a final recommendation.
 Built for real estate investors, analysts and fund managers who need fast and reliable deal screening without manual number-crunching or generic chatbot responses.
 
-# ✨ Features
+#  Features
 
 - AI Memo Generation — Generates institutional-quality investment memos using Groq's LLaMA 3.3 70B model
 - Automated Financial Metrics — Calculates ROI, rental yield, annual cash flow, and investment score automatically
@@ -24,7 +24,7 @@ Built for real estate investors, analysts and fund managers who need fast and re
 - Responsive Frontend — React + Vite frontend with Tailwind CSS, works on all devices
 
 
-# 🛠️ Tech Stack
+#  Tech Stack
 - Backend
     Technology:                                             Purpose:
     - Python 3.14                                           Core language
@@ -51,7 +51,7 @@ Built for real estate investors, analysts and fund managers who need fast and re
     - Groq Cloud                                            AI model hosting
 
 
-# 📸 Screenshots
+#  Screenshots
 
 Dashboard / Home
 
@@ -69,7 +69,7 @@ Generated Investment Memo and Reports
 <img width="1919" height="1008" alt="image" src="https://github.com/user-attachments/assets/e746db46-8937-477f-950c-793c6c31a8a1" />
 
 
-# ⚙️ Installation & Local Setup
+#  Installation & Local Setup
 Prerequisites-
 
 Make sure you have these installed:
@@ -139,7 +139,7 @@ Open two terminals and run simultaneously:
 | Terminal 2  | (Frontend) cd frontend && npm run dev         | http://localhost:8080   |
 
 
-# 🚀 Deployment
+#  Deployment
 
 - Backend → Render
 
@@ -183,7 +183,7 @@ Click Deploy
 
 
 
-# 📄 Live Demo 
+#  Live Demo 
 https://repitchbook-ai-a3s1.vercel.app
 
 
